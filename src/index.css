@@ -1,0 +1,11 @@
+.cat-info {
+  display: flex;
+}
+
+.box-text-cat {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+}
