@@ -11,8 +11,13 @@
 <body>
   <select class="breed-select">
   </select>
-  <p class="loader">Loading data, please wait...</p>
-  <p class="error">Oops! Something went wrong! Try reloading the page!</p>
+  <p class="loader is-hidden"><span>Load&nbsp;ng</span></p>
+  <p class="error is-hidden" id="errorMessage">
+    <b>Oops!</b>
+    <b>Something went wrong!
+      Try reloading the page!</b>
+  </p>
+  <!-- <p class="error is-hiddenr">Oops! Something went wrong! Try reloading the page!</p> -->
   <div class="cat-info"></div>
 
   <script src="index.js" type="module"></script>
